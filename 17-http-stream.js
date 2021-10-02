@@ -4,6 +4,7 @@ const fs = require("fs");
 http
   .createServer()
   .on("request", (req, res) => {
+    
     if (req.url === "/write") {
       //res.end("testing");
       res.write("more", "utf8", () => {

@@ -1,0 +1,23 @@
+{
+  "name": "jenkins-project-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pages.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alisson-Corrales/jenkins-project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alisson-Corrales/jenkins-project-2/issues"
+  },
+  "homepage": "https://github.com/Alisson-Corrales/jenkins-project-2#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
