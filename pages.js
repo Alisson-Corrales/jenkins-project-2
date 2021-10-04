@@ -25,13 +25,45 @@ http
       const link = fs.createReadStream("./riddles/hintTeeth.txt", "utf8");
       fileStream.on("open", () => {
         fileStream.pipe(res);
-        <a href= {link}> need a hint? </a>
+        //<a href= {link}> need a hint? </a>
       });
       fileStream.on("error", (err) => {
         res.end(err);
       });
     } else if (req.url === "/teeth") {
       const fileStream = fs.createReadStream("./riddles/teeth.txt", "utf8");
+      fileStream.on("open", () => {
+        fileStream.pipe(res);
+      });
+      fileStream.on("error", (err) => {
+        res.end(err);
+      });
+    } else if (req.url === "/eyes") {
+      const fileStream = fs.createReadStream("./riddles/eyes.txt", "utf8");
+      fileStream.on("open", () => {
+        fileStream.pipe(res);
+      });
+      fileStream.on("error", (err) => {
+        res.end(err);
+      });
+    } else if (req.url === "/skin") {
+      const fileStream = fs.createReadStream("./riddles/skin.txt", "utf8");
+      fileStream.on("open", () => {
+        fileStream.pipe(res);
+      });
+      fileStream.on("error", (err) => {
+        res.end(err);
+      });
+    } else if (req.url === "/blood") {
+      const fileStream = fs.createReadStream("./riddles/blood.txt", "utf8");
+      fileStream.on("open", () => {
+        fileStream.pipe(res);
+      });
+      fileStream.on("error", (err) => {
+        res.end(err);
+      });
+    } else if (req.url === "/brain") {
+      const fileStream = fs.createReadStream("./riddles/brain.txt", "utf8");
       fileStream.on("open", () => {
         fileStream.pipe(res);
       });
