@@ -1,4 +1,6 @@
-Tubes that let you undeRstand.
+Tubes that let you understand.
 Some cover us when it is loud.
 Or else, we may begin to scream.
 What are we?
+
+Do you need help? type "/hint1"

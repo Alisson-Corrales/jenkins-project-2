@@ -1,5 +1,7 @@
 Texture like peeled grapes.
 More delicate than vinyls.
-Get a bad paiR.
+Get a bad pair.
 And everything becomes a melted mosaic.
 What are we?
+
+Do you need help? type "/hint4"

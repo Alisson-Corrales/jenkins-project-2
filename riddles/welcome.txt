@@ -2,6 +2,6 @@ You have come a long way. Thank you for going through this trouble.
 Adding more paths to this labyrinth ensures your safety. 
 I can assure you, however, that you are smart enough to find your way out.
 The effort will be worth it.
-Please type /begin in the url to. 
+Please type '/begin' in the url to. 
 Well.
 Begin.
